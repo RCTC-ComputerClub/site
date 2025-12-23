@@ -60,7 +60,7 @@
     //   - false by default to avoid flash unstyled text (FOUT)
     //   - if flash of invisible text (FOIT) is more disturbing, enable it
     // - 'body' and 'header': specify font families and weights
-    // 
+    //
     // Every weight and style used anywhere must be defined here:
     // - weights starting with "0," are non-italic
     // - weights starting with "1," are italic
@@ -137,7 +137,7 @@
         // Copyright year (default is current year)
         year: "",
         // Copyright link (optional)
-        link: "https://emp-starter.lastguru.dev",
+        link: "https://rctc-computerclub.github.io",
         // Copyright text (optional)
         text: "test",
     }

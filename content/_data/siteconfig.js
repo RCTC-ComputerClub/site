@@ -1,12 +1,11 @@
 export default {
     // Main website title (displayed in the sidebar and page title)
-    title: "Eleventy Markdown Prime",
+    title: "RCTC CompSci Club",
 
     // Base site URL for generating absolute URLs (used throughout the site)
-    url: "https://emp-starter.lastguru.dev",
+    url: "https://rctc-computerclub.github.io",
     // Alternative/internal URLs that should not be treated as external
-    internalUrls: [
-    ],
+    internalUrls: [],
 
     // Sidebar profile image (relative path from the site root)
     image: "/images/logo.png",
@@ -14,9 +13,9 @@ export default {
     imageAlt: "",
 
     // Author name (used in meta tags and JSON-LD structured data)
-    author: "lastguru",
+    author: "RCTC_CompSci_Club",
     // Author type ("Person" or "Organization", used in JSON-LD)
-    authorType: "Person",
+    authorType: "Organization",
 
     // Short site description (displayed below the sidebar image and used in meta tags)
     description: "A minimalistic text-focused Eleventy theme",
@@ -25,7 +24,7 @@ export default {
     locale: "en_US",
     // Default language for HTML lang and post properties and site strings
     lang: "en",
- 
+
     // Default OpenGraph image (used if no image is specified in page frontmatter)
     openGraphDefaultImage: "/images/logo.png",
 
@@ -42,11 +41,11 @@ export default {
     // Analytics and tracking IDs (optional)
     pixels: {
         // Facebook App ID
-//        fbApp: "",
+        //        fbApp: "",
         // Facebook Pixel ID
-//        fbPixel: "",
+        //        fbPixel: "",
         // Google Analytics Tag ID
-//        googleTag: "",
+        //        googleTag: "",
     },
 
     // Pagination configuration
@@ -56,6 +55,6 @@ export default {
     pagination: {
         postsPerPage: 10,
         authorLinkPrefix: "/author/",
-        tagLinkPrefix: "/",
-    },
-}
+        tagLinkPrefix: "/"
+    }
+};
