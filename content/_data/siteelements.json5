@@ -107,13 +107,13 @@
         // Facebook username
 //        fbProfile: "",
         // Mastodon profile URL
-        mastodon: "https://toot.lv/@lastguru",
+        mastodon: "",
         // Bluesky profile URL
-        bluesky: "https://bsky.app/profile/lastguru.net",
+        bluesky: "",
         // Instagram username
 //        instagram: "",
         // Threads username
-        threads: "lastguru_net",
+        threads: "",
     },
 
     // Privacy Policy link configuration (displayed in the footer or sidebar)
